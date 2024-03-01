@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Contact</title>
+    <h1>Contact</h1>
   </head>
   <body>
     
