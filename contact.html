@@ -3,28 +3,25 @@
   <head>
     <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
-    <h1>Contact</h1>
   </head>
   <body>
-     <nav>
+    <h1>Contact</h1>
       <ul>
     <li><a href= "index.html">Home</a></li>
     <li><a href= "about.html">About</a></li>
     <li><a href= "contact.html">Contact</a></li>
       </ul>
-    </nav>
-  </body>
-  <p>
     <form action="/submit" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br> 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br> 
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required><br> 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required></textarea><br>
-        <button type="submit">Submit</button>
-        </form>
-  </p>
+      <form id="contact-form" action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br> 
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br> 
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required><br> 
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
