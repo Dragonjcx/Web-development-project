@@ -1,93 +1,40 @@
 body {
-
     background-color: black;
-
     color: white;
-
     font-family: Arial, sans-serif;
-
     margin: 0;
-
     padding: 0;
-
 }
-
- 
-
 header {
-
     background-color: #333;
-
     padding: 20px;
-
     text-align: center;
-
 }
-
- 
-
 header h1 {
-
     margin: 0;
-
     font-size: 36px;
-
     color: gold;
-
 }
-
- 
-
 nav ul {
-
     list-style-type: none;
-
     margin: 0;
-
     padding: 0;
-
 }
-
- 
-
 nav li {
-
     display: inline;
-
     margin-right: 20px;
-
 }
-
- 
-
 nav a {
-
     color: blue;
-
     text-decoration: none;
-
     font-size: 20px;
-
 }
-
- 
-
 main {
-
     padding: 20px;
-
 }
-
- 
-
 footer {
-
     background-color: #333;
-
     color: white;
-
     padding: 20px;
-
     text-align: center;
-
 }
