@@ -1,4 +1,4 @@
- <!--Code for the body -->
+ /*--Code for the body */
 body {
     background-color: black;
     color: white;
@@ -7,20 +7,19 @@ body {
     padding: 0;
 }
 
-  <!--Header code -->
+  /*--Header code */
 header {
     background-color: #333;
     padding: 20px;
     text-align: center;
 }
- <!--More Header code -->
+ /* More Header code */
  header h1 {
     margin: 0;
     font-size: 36px;
     color: gold;
 }
- 
- <!--Code for navigation -->
+/*-- Code for navigation */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -44,8 +43,7 @@ nav a {
 main {
     padding: 20px;
 }
- 
- <!--Code for the footer -->
+/* code for the footer */ 
 footer {
     background-color: #333;
     color: white;
