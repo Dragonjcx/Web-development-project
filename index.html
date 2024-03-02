@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1 onclick="toggleMenu()">Home</h1>
+    <nav>
     <link rel="stylesheet" href="styles.css">
     <h1>Home</h1>
     <nav>
@@ -11,6 +11,12 @@
     <li><a href= "contact.html">Contact</a></li>
       </ul>
     </nav>
+      <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('show-menu');
+        }
+    </script>
   </head>
   <body>
     
