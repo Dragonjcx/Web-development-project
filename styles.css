@@ -21,3 +21,8 @@ form
   font-family: courier;
   font-size: 160%;
 }
+textarea
+{
+  display: block;
+  border: 1px solid white;
+  margin: 10px 0;
