@@ -9,12 +9,12 @@ p {
   font-family: courier;
 }
 nav ul {list-style-type: none;margin: 0;padding:0;}
-nav li {display: inline; margin-right: 2;}
+nav li {display: inline; margin-right: 5%;}
 a
 {
   color: blue;
   font-family: courier;
-  fontsize: 160%
+  font-size: 160%;
 form
 {
   color: white;
@@ -23,6 +23,12 @@ form
 }
 textarea
 {
+  width: 10%;
+  height: 100%;
+  resize: vertical;
+}
+hr
   display: block;
   border: 1px solid black;
   margin: 10px 0;
+}
