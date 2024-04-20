@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <!--The title of my page -->
     <title>Contact</title>
-     <!--Link to my CSS sheet -->
     <link rel="stylesheet" href="styles.css">
-     <!--Link to my Java-Script -->
-    <script src="script.js" defer></script>
-
 </head>
 <body>
-     <!--This is my heading -->
-    <h1>Contact</h1>
-
-    <nav>
-
-        <ul>
-             <!--These are the links to my other pages -->
-            <li><a href="index.html">Home</a></li>
-
-            <li><a href="about.html">About</a></li>
-
-            <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-    </nav>
-     <!--This is the code for my toggle element Java-Script -->
-    <button class="toggle-time">Toggle Time</button> <!-- Toggle Time Button -->
-    <div class="time-display" style="display: none;"></div> <!-- Time Display (Initially Hidden) -->
-    <form class="contact-form" action="/submit-form" method="POST">
-        <!-- This is the code for my Contact page and the form content -->
-        <form id="contact-form" action="/submit-form" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required></textarea><br>
-        <button type="submit">Submit</button>
-    </form>
-
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h2>Get in Touch</h2>
+        <form class="contact-form" action="/submit-form" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
