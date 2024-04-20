@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 .profile-img {
-    max-width: 50%; /* Resizing the image */
+    max-width: 300px; /* Resizing the image */
     display: block;
     margin: 0 auto; /* Centering the image */
 }
