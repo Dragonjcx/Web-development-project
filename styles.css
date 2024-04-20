@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     background-color: black;
     color: white;
@@ -10,11 +11,6 @@ header {
     background-color: white;
     padding: 20px;
     text-align: center;
-}
-
-h1, h2 {
-    text-align: center;
-    margin-top: 20px;
 }
 
 nav ul {
@@ -43,33 +39,6 @@ nav a:hover {
     padding: 20px;
 }
 
-.contact-form {
-    margin-top: 20px;
-    text-align: center;
+.profile-img, .logo {
+    max-width: 100%; /* Ensure images don't exceed container width */
 }
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 80%;
-    max-width: 300px;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid white;
-}
-
-.contact-form button[type="submit"] {
-    background-color: gold;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
